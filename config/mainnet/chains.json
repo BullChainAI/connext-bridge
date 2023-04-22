@@ -42,19 +42,17 @@
     "no_pool": true
   },
   {
-    "id": "binance",
-    "chain_id": 56,
+    "id": "XChainTestnet",
+    "chain_id": 911,
     "domain_id": "6450786",
-    "name": "BNB Chain",
-    "short_name": "BNB",
+    "name": "XChainTestnet",
+    "short_name": "XCHAIN",
     "provider_params": [
       {
-        "chainId": "0x38",
-        "chainName": "BNB Chain",
+        "chainId": "911",
+        "chainName": "XChain",
         "rpcUrls": [
-          "https://rpc.ankr.com/bsc",
-          "https://1rpc.io/bnb",
-          "https://bscrpc.com"
+          "https://testnet.xchain.finance/ext/bc/XChain/rpc"
         ],
         "nativeCurrency": {
           "name": "BNB",
